@@ -303,28 +303,32 @@ Consider the following accounts and account types:
 
 - **Assets**
     - **Sales** 
-        - Redemptions (R)
-        - Lapsed (L)
+        - Redemptions 
+        - Lapsed
     - **Cash**
-        - Bank (B)
+        - Bank 
     - **Unpaid**
-        - Merchant funded (M)
+        - Merchant funded 
 - **Liabilities**
     - **Deferred income**
 
 Note that all accounts start with a balance of 0 and the sum of all balances will always be zero.
 
-A customer purchases a £50 giftcard:
+*A customer purchases a £50 giftcard*
+
     - A new account is created of type 'Deferred income' with an end date
     - £50 is transferred from the Bank to this new account
 
-A customer pays for a £30 order using their £50 giftcard
+*A customer pays for a £30 order using their £50 giftcard*
+
     - £30 is transferred from the giftcard account to the redemptions account
 
-The customer's giftcard expires with £20 still on it
+*The customer's giftcard expires with £20 still on it*
+
     - £20 is transferred from the giftcard account to the lapsed account
 
-The customer phones up to complain and a staff member creates a new giftcard for £20
+*The customer phones up to complain and a staff member creates a new giftcard for £20*
+
     - A new account is created of type 'Deferred income' 
     - £20 is transferred from the "Merchant funded" account to this new account
 
