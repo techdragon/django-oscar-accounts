@@ -1,6 +1,6 @@
 import os
 
-VERSION = '0.3-machtfit-4'
+VERSION = '0.3-machtfit-5'
 
 # Setting for template directory not found by app_directories.Loader.  This
 # allows templates to be identified by two paths which enables a template to be
